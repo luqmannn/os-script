@@ -1,6 +1,6 @@
 # os-script
 
-Setting up and do bunch of things:
+## Setting up and do bunch of things:
 - DNF download speed
 - System update
 - RPM fusion repo
@@ -12,3 +12,11 @@ Setting up and do bunch of things:
 - GNOME settings
 - NetworkManager
 - Docker
+
+## TBA
+- Setting up devops env:
+    - KVM
+    - Vagrant
+    - JDK8
+    - Maven
+    - AWS CLI
