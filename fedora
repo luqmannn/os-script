@@ -58,10 +58,10 @@ sudo dnf install -y fedora-flathub-remote
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 
 # Install flatpak packages
-flatpak install -y flathub com.mattjakeman.ExtensionManager com.github.tchx84.Flatseal com.discordapp.Discord
+flatpak install -y flathub com.mattjakeman.ExtensionManager com.github.tchx84.Flatseal com.discordapp.Discord io.github.peazip.PeaZip com.spotify.Client
 
 # Install additional packages
-sudo dnf install -y vim unrar unzip lshw neofetch tldr ffmpeg mpv yt-dlp libexif gsmartcontrol gnome-tweaks telegram-desktop lynis autojump thefuck make copyq
+sudo dnf install -y vim unrar unzip lshw fastfetch tldr ffmpeg mpv yt-dlp libexif gsmartcontrol gnome-tweaks telegram-desktop qbittorrent lynis autojump thefuck make copyq
 
 # Install packages for devops work
 sudo dnf install vagrant git java-1.8.0-openjdk maven awscli
